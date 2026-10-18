@@ -17,7 +17,7 @@ A free, open-source learning website for GDScript and Godot 4. Learn from your f
 Important: this website teaches GDScript but does not execute arbitrary GDScript inside the browser. Type examples into a Godot project and run them there.
 
 ## Enable GitHub Pages
-Open Settings → Pages. Choose Deploy from a branch, select main and /(root), and save. After deployment, the usual URL is https://mr-chapters.github.io/Godot/.
+Open Settings → Pages and set Build and deployment source to GitHub Actions. Save the setting and rerun the Deploy static learning site workflow from the Actions tab if it does not start automatically. After a successful deployment, the usual URL is https://mr-chapters.github.io/Godot/. The workflow files are already included in this repository.
 
 ## Curriculum
 01 Setup and editor · 02 First script · 03 Variables · 04 Types · 05 Operators · 06 Conditions · 07 Loops · 08 Functions · 09 Arrays and dictionaries · 10 Nodes and scenes · 11 Lifecycle · 12 Input · 13 Vectors and movement · 14 Signals · 15 Collision and Area2D · 16 Timers · 17 UI · 18 Health and damage · 19 Scene instancing · 20 State machines · 21 Resources and exports · 22 Save/load · 23 Audio and animation · 24 Debugging · 25 Clean code · 26 Platformer project · 27 Top-down project · 28 3D introduction · 29 Export and capstone.
