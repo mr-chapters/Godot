@@ -12,6 +12,19 @@ The visual sprite does not automatically become a collision shape. Collision geo
 
 `Area2D` detects when physics bodies or other areas enter, exit, or overlap it. It is useful for triggers, pickups, damage zones, and detection ranges. It generally does not physically push bodies away like a solid physics body.
 
+## Diagram — how a pickup detects the player
+
+~~~mermaid
+flowchart TD
+    A[Player moves] --> B[Player enters Area2D]
+    B --> C{Collision and monitoring configured?}
+    C -- No --> D[Check shape, layer, mask, monitoring]
+    C -- Yes --> E[body_entered signal]
+    E --> F[Check player group]
+    F --> G[Emit collected signal]
+    G --> H[queue_free]
+~~~
+
 ## Collectible example
 
 Create an `Area2D` scene with a `CollisionShape2D` child and a visual child such as `Sprite2D`. Ensure the collision shape is assigned. Attach this script to the Area2D:
