@@ -1,57 +1,43 @@
 # Choose Your Godot Learning Track 🎮
 
-Welcome to the **Godot Creator Academy** inside this repository! You don't have to be only a programmer to make a game. Games need people who write scripts, build levels, draw art, make sounds, design interfaces, test ideas, and bring everything together.
+Welcome to the **Godot Creator Academy** inside this repository. Games are made by teams with different strengths: programmers, level builders, audio designers, pixel artists, UI designers, game designers, and testers. You can begin with one role and later learn how the others fit together.
 
-Each track is a written course. Read the lessons on GitHub, open Godot alongside them, and try the mini-missions. The tracks link together, so you can specialise and still understand how the whole game works.
+These are **written books in Markdown**, not a website. Open a book, follow the steps in Godot, complete the mission, and try the boss challenge before moving on.
 
-## Pick your role
+## The books
 
-### 🧠 Scripter — make the game think
-Learn GDScript, player controls, enemies, quests, inventory, UI logic, saving, debugging, and game architecture.
+### 🧠 [Scripters' Book](scripters/README.md)
+Learn GDScript, variables, decisions, loops, functions, input, movement, signals, inventory, and debugging.
 
-**Start:** [Scripter track](scripters/README.md)
+### 🧱 [Builders' Book](builders/README.md)
+Learn scenes, nodes, greyboxing, collisions, reusable scenes, tile layers, lighting, level flow, and checkpoints.
 
-### 🧱 Builder / Level Designer — make the world
-Learn scenes, nodes, tilemaps, collisions, platforms, doors, lighting, navigation, level flow, and performance-friendly layouts.
+### 🔊 [SFX Makers' Book](sfx-makers/README.md)
+Learn sound design, audio tools, importing, buses, music loops, licensing, positional audio, and final audio delivery.
 
-**Start:** [Builder track](builders/README.md)
+### 🎨 [Pixel Artists' Book](pixel-artists/README.md)
+Learn readable sprites, animation, tilesets, backgrounds, art direction, import settings, and asset handoff.
 
-### 🔊 SFX Maker / Audio Designer — make the game sound alive
-Learn to create pixel-style sound effects, footsteps, pickups, UI clicks, ambience, music loops, audio buses, and volume settings.
+### 🖥️ [UI Designers' Book](ui-designers/README.md)
+Learn HUDs, menus, containers, pause behaviour, settings, accessibility, navigation, and testing.
 
-**Start:** [Sound track](sfx-makers/README.md)
+### 🧪 [Game Designers & Testers' Book](designers-testers/README.md)
+Learn core loops, playtesting, bug reports, difficulty, accessibility, scope, milestones, and release checks.
 
-### 🎨 Pixel Artist — make the game look right
-Learn sprites, palettes, tilesets, animation frames, import settings, readable silhouettes, and crisp pixel-art scaling.
+## More learning material
+- [Main GDScript course](../README.md)
+- [Complete manual pack](../manual/README.md)
+- [Official Godot documentation](https://docs.godotengine.org/en/stable/)
 
-**Start:** [Pixel-art track](pixel-artists/README.md)
+## How to use a chapter
+1. Read the mission and plain-English explanation.
+2. Follow the editor setup exactly.
+3. Type the code yourself and check node/action names.
+4. Run the project and compare the expected result.
+5. Complete the mini-mission without copying the example blindly.
+6. Use the checkpoint to test your understanding.
+7. Try the boss challenge to combine the ideas.
 
-### 🖥️ UI Designer — make menus people understand
-Learn HUDs, buttons, layout containers, anchors, responsive design, feedback, accessibility, and settings screens.
+The chapters include common mistakes and troubleshooting. Code examples target Godot 4.x; check your installed minor version and the official documentation when editor labels or APIs differ.
 
-**Start:** [UI track](ui-designers/README.md)
-
-### 🧪 Tester / Game Designer — make it fun and reliable
-Learn core loops, objectives, difficulty, playtesting, bug reports, balancing, onboarding, and game feel.
-
-**Start:** [Game design and testing track](designers-testers/README.md)
-
-## The full manual pack
-
-See [the Godot manual](../manual/README.md) for deeper reference material on audio, pixel art, production, importing assets, testing, and exporting.
-
-## How every lesson should work
-
-A lesson should not just throw code or buttons at you. It should include:
-1. **The mission** — what you'll make.
-2. **The idea in plain English** — explain it like you're new.
-3. **Follow along** — steps in the editor.
-4. **Code or settings** — with the required node setup.
-5. **Line-by-line walkthrough** — what each important part does.
-6. **Common fails** — why it breaks and how to fix it.
-7. **Boss challenge** — an exercise to solve yourself.
-8. **Bonus level** — a harder extension.
-9. **Checkpoint** — questions to prove you understand.
-10. **Next link** — where to go next.
-
-The goal is to understand the craft, not copy-paste blindly.
+**Final goal:** finish one small game with a working level, scripts, art, audio, interface, and a tested export. Every role contributes to that same playable result.
