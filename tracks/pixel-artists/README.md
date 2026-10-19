@@ -1,35 +1,28 @@
-# 🎨 Pixel Artist Track — Create Crisp Game Art
+# 🎨 Pixel Artists' Book — Create Crisp, Readable Game Art
 
-**Role:** create sprites, tiles, backgrounds, and animations that communicate clearly at small sizes.
+**Who this book is for:** pixel artists and game developers who want to make sprites, tiles, backgrounds, and animation that stay readable in motion.
 
-## Level 1 — Make a readable sprite
-Try [Piskel](https://www.piskelapp.com/) or [LibreSprite](https://libresprite.github.io/).
+## Table of contents
 
-Learn:
-- choose a small canvas and use a limited palette;
-- make the silhouette recognisable before adding details;
-- use consistent light direction;
-- check that important features remain visible at actual game size;
-- export as PNG and keep editable source files where possible.
+1. [Pixel Art and Readable Sprites](01-pixel-art-and-readable-sprites.md) — silhouettes, small palettes, light direction, and first sprite.
+2. [Spritesheets, Animation, and Export](02-spritesheets-animation-and-export.md) — consistent frames, AnimatedSprite2D, texture filtering, and scaling.
+3. [Tilesets, Backgrounds, and Art Direction](03-tilesets-backgrounds-and-art-direction.md) — visual rules, tile edges, background layers, and environment kits.
+4. [Polish, Consistency, and Delivery](04-polish-consistency-and-delivery.md) — in-game checks, naming, source files, licences, and handoff.
 
-## Level 2 — Create animation
-Make idle, run, jump, and hurt animations. Keep frame sizes consistent and use timing that communicates weight. Not every animation needs many frames; clear timing often matters more than detail.
+## Suggested starter tools
+- [LibreSprite](https://libresprite.github.io/)
+- [Piskel](https://www.piskelapp.com/)
+- [Aseprite](https://www.aseprite.org/) (paid; check current terms)
+- [Kenney assets](https://kenney.nl/assets) for prototyping
 
-## Level 3 — Import into Godot
-Read the [pixel-art manual](../../manual/pixel-art/README.md).
+## Art delivery checklist
+- [ ] Silhouette reads at actual gameplay size.
+- [ ] Palette and lighting direction are consistent.
+- [ ] Sprite frames share a predictable grid.
+- [ ] Tiles connect cleanly when repeated.
+- [ ] Pixel filtering and scaling are checked in Godot.
+- [ ] Editable sources are kept where possible.
+- [ ] Third-party sources and licences are recorded.
+- [ ] Another teammate can understand the handoff notes.
 
-- Use nearest filtering when you want crisp pixels.
-- Check texture import and project scaling settings.
-- Test the game at its intended resolution.
-- Avoid accidental fractional scaling that makes pixel widths uneven.
-- Keep animation names consistent.
-
-## Mini-mission
-
-Create a character, one enemy, a floor tile, a wall tile, and a collectible. Import them into Godot and make sure each remains readable at normal gameplay size.
-
-## Boss challenge
-
-Create a 16×16 or 32×32 character with idle and walk animations, then build a small tileset around the same palette.
-
-**Bonus:** create a second palette for a different mood without changing the silhouette.
+**Graduation challenge:** create a character with idle and walk animation, a small tileset, and one background. Import them into Godot and make a playable room that remains readable at the intended resolution.
