@@ -14,6 +14,17 @@ Player (CharacterBody2D)
 
 The root node is `Player`. The sprite and collision shape are children. This organisation lets the player object group visual and physics-related pieces together.
 
+## Diagram — scene tree structure
+
+A scene tree shows ownership: child nodes belong to their parent, and the root groups the object into one reusable scene.
+
+~~~mermaid
+flowchart TD
+    A[Player: CharacterBody2D] --> B[Sprite2D: visuals]
+    A --> C[CollisionShape2D: physics shape]
+    A --> D[Camera2D: view]
+~~~
+
 ## Why scenes are reusable
 
 You might build an enemy once, save it as `Enemy.tscn`, and then instance it many times in a level. Each instance starts from the same scene structure but can have different properties.
