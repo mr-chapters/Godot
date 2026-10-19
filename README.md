@@ -29,6 +29,8 @@ Each book has a table of contents, plain-English explanations, guided setup, exa
 
 ## Start here
 
+- Try the [Advanced GDScript Practice Workbook](practice/advanced-gdscript-workbook.md) after completing the foundations. It includes 12 challenges, a boss project, testing guidance, and self-assessment.
+
 1. Read [00 — How to use this course](lessons/00-how-to-use-this-course.md).
 2. Follow the numbered lessons in order. Don't skip the exercises.
 3. Install Godot from the [official download page](https://godotengine.org/download/).
