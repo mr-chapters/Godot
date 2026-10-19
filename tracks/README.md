@@ -1,6 +1,6 @@
 # Choose Your Godot Learning Track 🎮
 
-Welcome to the **Godot Creator Academy** inside this repository. Games are made by teams with different strengths: programmers, level builders, audio designers, pixel artists, UI designers, game designers, and testers. You can begin with one role and later learn how the others fit together.
+Welcome to the **Godot Creator Academy** inside this repository. Games are made by teams with different strengths: programmers, level builders, audio designers, pixel artists, UI designers, game designers, testers, and 3D artists. You can begin with one role and later learn how the others fit together.
 
 These are **written books in Markdown**, not a website. Open a book, follow the steps in Godot, complete the mission, and try the boss challenge before moving on.
 
@@ -23,6 +23,9 @@ Learn HUDs, menus, containers, pause behaviour, settings, accessibility, navigat
 
 ### 🧪 [Game Designers & Testers' Book](designers-testers/README.md)
 Learn core loops, playtesting, bug reports, difficulty, accessibility, scope, milestones, and release checks.
+
+### 🧊 [3D Artists' Book](3d-artists/README.md)
+Learn the 3D asset pipeline, modelling, scale, materials, UVs, lighting, cameras, and exporting from Blender to Godot.
 
 ## More learning material
 - [Main GDScript course](../README.md)
