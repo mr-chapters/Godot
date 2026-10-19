@@ -6,6 +6,17 @@ Signals let one object announce that something happened without needing to know 
 
 Without signals, one object may need direct references to several other objects. This creates tight coupling: changing one system can force changes elsewhere. Signals allow a sender and a receiver to communicate through an event.
 
+## Diagram — signal communication
+
+The sender announces an event. Receivers react without the sender needing to control how each receiver works.
+
+~~~mermaid
+flowchart LR
+    A[Collectible] -->|collected signal| B[Level manager]
+    B --> C[Update score]
+    B --> D[Update HUD]
+~~~
+
 ## Create a signal
 
 ```gdscript
