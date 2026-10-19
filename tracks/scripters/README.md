@@ -1,51 +1,42 @@
-# 🧠 Scripter Track — Teach Your Game to Think
+# 🧠 Scripters' Book — Teach Your Game to Think
 
-**Role:** write the rules and behaviour that make a game playable.
+**Who this book is for:** beginners who want to write the rules behind movement, inventory, enemies, UI, quests, and saving. Read the chapters in order and type examples yourself. The core course in `lessons/` adds more depth and practice.
 
-You are the person who makes the character move, doors open, coins count, enemies react, menus work, and progress save. You do not need to know everything on day one. Build one small behaviour at a time.
+## Table of contents
 
-## Level 1 — Learn the language
-1. [GDScript foundations](../../lessons/02-first-script.md)
-2. [Variables and constants](../../lessons/03-variables-and-constants.md)
-3. [Types and type hints](../../lessons/04-types-and-type-hints.md)
-4. [Operators](../../lessons/05-operators.md)
-5. [Conditions](../../lessons/06-conditions.md)
-6. [Loops](../../lessons/07-loops.md)
-7. [Functions](../../lessons/08-functions.md)
-8. [Arrays and dictionaries](../../lessons/09-arrays-and-dictionaries.md)
+### Part I — Start thinking like a programmer
+1. [Your First Script](01-your-first-script.md) — create a scene, attach GDScript, run it, and understand `_ready()`.
+2. [Variables, Stats, and Types](02-variables-stats-and-types.md) — strings, integers, floats, booleans, constants, scope, and calculations.
+3. [Decisions, Loops, and Functions](03-decisions-loops-and-functions.md) — conditions, repetition, parameters, and return values.
+4. [Input, Movement, and Signals](04-input-movement-and-signals.md) — Input Map actions, CharacterBody2D movement, and node communication.
+5. [Arrays, Dictionaries, and Inventory](05-arrays-dictionaries-and-inventory.md) — collections, item counts, and inventory rules.
+6. [Debugging and Finishing a Feature](06-debugging-and-finish-a-feature.md) — read errors, reproduce bugs, test edge cases, and finish responsibly.
 
-**Mini-mission:** create a score counter that increases when you collect a coin.
+### Part II — Connect the foundations to Godot
+Continue with the main [GDScript lesson course](../../README.md):
+- [Nodes, scenes, and the scene tree](../../lessons/12-nodes-scenes-tree.md)
+- [The node lifecycle](../../lessons/13-node-lifecycle.md)
+- [Input and movement](../../lessons/14-input-and-movement.md)
+- [Signals](../../lessons/15-signals.md)
+- [Collision and Area2D](../../lessons/16-collision-and-area2d.md)
+- [Timers and spawning](../../lessons/17-timers-and-spawning.md)
+- [Health and game states](../../lessons/18-health-and-game-states.md)
+- [UI and HUD](../../lessons/19-ui-and-hud.md)
+- [Saving and loading](../../lessons/20-saving-and-loading.md)
+- [Clean code](../../lessons/22-clean-code.md)
 
-## Level 2 — Think in Godot
-1. [Nodes and scenes](../../lessons/12-nodes-scenes-tree.md)
-2. [Node lifecycle](../../lessons/13-node-lifecycle.md)
-3. [Input and movement](../../lessons/14-input-and-movement.md)
-4. [Signals](../../lessons/15-signals.md)
-5. [Collision and Area2D](../../lessons/16-collision-and-area2d.md)
+### Part III — Final project
+Build a small game with movement, collectibles, health, an exit condition, and a restart flow. Then extend it with a door that requires a key and a score requirement.
 
-**Mini-mission:** make a player collect an item and notify the score system using a signal.
+## How to study this book
+For each chapter: read the mission, build the setup, type the example, run it, change one value, complete the mini-mission, and answer the checkpoint without looking at the answer. If an example fails, compare node names, input action names, indentation, and the first error message.
 
-## Level 3 — Build real systems
-1. [Timers and spawning](../../lessons/17-timers-and-spawning.md)
-2. [Health and game states](../../lessons/18-health-and-game-states.md)
-3. [UI and HUD](../../lessons/19-ui-and-hud.md)
-4. [Saving and loading](../../lessons/20-saving-and-loading.md)
-5. [Debugging](../../lessons/21-debugging.md)
-6. [Clean code](../../lessons/22-clean-code.md)
+## Scripter's field rules
+- Keep each function focused on one job.
+- Prefer clear names over clever names.
+- Use signals when systems need to communicate without tightly depending on each other.
+- Test normal cases and edge cases.
+- Do not paste code you cannot explain.
+- Read the official [GDScript reference](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html).
 
-**Mini-mission:** build a small game with health, a timer, a game-over state, and a restart button.
-
-## Scripter habits that save hours
-
-- Read the error message before changing random lines.
-- Check node names and paths carefully.
-- Give variables and functions names that explain their purpose.
-- Use signals when one system needs to announce an event to another.
-- Test one feature at a time.
-- Learn why code works, not only what to paste.
-
-## Boss challenge
-
-Create a reusable door with a locked state. It should open when the player has a key, play a sound, and emit a signal when opened. Add a message when the player has no key.
-
-**Bonus:** make the door save its open state and explain how you would test that save data.
+**Graduation challenge:** create a small, playable game and explain how movement, health, score, signals, and win/lose states connect.
