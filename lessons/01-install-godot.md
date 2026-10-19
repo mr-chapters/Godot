@@ -50,4 +50,4 @@ A scene is a reusable collection of nodes arranged in a tree. Even an empty scen
 - Following a Godot 3 tutorial while using Godot 4.
 - Assuming a scene is the same thing as a script. A scene organises nodes; a script defines behaviour.
 
-**Official references:** [Editor introduction](https://docs.godotengine.org/en/stable/getting_started/introduction/ Godot_editor.html) · [Step-by-step](https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html)
+**Official references:** [Editor introduction](https://docs.godotengine.org/en/stable/tutorials/editor/index.html) · [Step-by-step](https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html)
