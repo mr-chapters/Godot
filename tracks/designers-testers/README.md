@@ -1,40 +1,31 @@
-# 🧪 Game Designer and Tester Track — Make It Fun, Then Make It Reliable
+# 🧪 Game Designers & Testers' Book — Make It Fun, Then Make It Reliable
 
-**Role:** decide what the player does, how the game responds, and whether it works as intended.
+**Who this book is for:** game designers, playtesters, and developers who turn an idea into a clear, balanced, reliable experience.
 
-## Level 1 — Design a core loop
-A core loop is the repeated activity that makes up the main gameplay. For example: explore → find an item → avoid a hazard → unlock a new area → repeat.
+## Table of contents
 
-Write one sentence describing the player's goal. If it takes a paragraph to explain the main goal, simplify it.
+1. [Design a Core Game Loop](01-design-a-core-game-loop.md) — player goals, repeated actions, prototypes, and observation.
+2. [Find Bugs and Report Them Clearly](02-bug-reports-and-playtesting.md) — reproduction steps, severity, regression tests, and evidence.
+3. [Difficulty, Feedback, and Accessibility](03-difficulty-feedback-and-accessibility.md) — teach/test pacing, fairness, feedback, and inclusive options.
+4. [Scope, Milestones, and Release Testing](04-production-scope-and-release-checklist.md) — feature priorities, milestones, known issues, and release checklist.
 
-## Level 2 — Teach without overwhelming
-Introduce one new idea at a time. Let the player try a safe version before adding pressure. Use level layout, animation, sound, and concise text to show how things work.
+## A practical testing rhythm
+1. State what should happen.
+2. Play the build and observe what actually happens.
+3. Record evidence rather than guessing the cause.
+4. Prioritize the issue by impact.
+5. Change one major variable at a time.
+6. Retest the original steps and nearby features.
+7. Keep a known-issues list until release.
 
-## Level 3 — Test deliberately
-A useful bug report includes:
-- a short title;
-- steps to reproduce;
-- what you expected;
-- what actually happened;
-- whether it happens every time;
-- platform and Godot version when relevant.
+## Design and QA checklist
+- [ ] The core loop can be explained in one sentence.
+- [ ] The player understands the goal.
+- [ ] New mechanics are taught before pressure increases.
+- [ ] Win, failure, pause, and restart paths are tested.
+- [ ] Bug reports contain steps, expected result, and actual result.
+- [ ] Accessibility and feedback are considered.
+- [ ] Scope leaves time for testing.
+- [ ] The exported build is tested on its target platform.
 
-Avoid vague reports like "the game is broken." A specific reproduction path helps the developer find the cause.
-
-## Level 4 — Balance and accessibility
-- Make early challenges teach rather than punish.
-- Test whether instructions are understandable.
-- Avoid relying only on colour or audio to communicate important information.
-- Give players useful volume controls.
-- Test difficulty with people who did not build the game.
-- Change one major variable at a time when balancing.
-
-## Mini-mission
-
-Give a friend a short level. Do not explain the controls. Write down where they hesitate, misunderstand an object, or fail to notice the goal. Improve the level based on what you observe.
-
-## Boss challenge
-
-Write a one-page design document, create a playable prototype, run three playtests, and list the three biggest improvements. Explain what evidence made you choose each improvement.
-
-**Bonus:** design a simple test plan that covers normal play, pause, restart, win, failure, and missing or invalid save data.
+**Graduation challenge:** write a one-page design brief, make a playable prototype, observe at least three playtests if possible, file useful bug reports, and prepare a release checklist.
