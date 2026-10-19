@@ -12,6 +12,20 @@ Welcome! This repository is a **written, hands-on course for learning GDScript**
 - Game systems: movement, collision, health, enemies, user interfaces, spawning, saving, and state machines.
 - Practical development: debugging, organising projects, performance basics, exporting, and completing projects.
 
+## Choose your creator path 🎮
+
+You can learn more than scripting. This repository now includes role-based learning tracks for the different people who make games:
+
+- [🧠 Scripters](tracks/scripters/README.md) — teach the game how to behave with GDScript.
+- [🧱 Builders and level designers](tracks/builders/README.md) — assemble scenes, levels, collision, and worlds.
+- [🔊 SFX makers and audio designers](tracks/sfx-makers/README.md) — create retro effects, music loops, UI sounds, and audio systems.
+- [🎨 Pixel artists](tracks/pixel-artists/README.md) — make sprites, tiles, and animations.
+- [🖥️ UI designers](tracks/ui-designers/README.md) — create menus, HUDs, and settings.
+- [🧪 Game designers and testers](tracks/designers-testers/README.md) — plan gameplay, playtest, and find bugs.
+- [📚 Complete Godot manual pack](manual/README.md) — deeper reference guides for audio, pixel art, project production, and more.
+
+Every track is designed around missions, explanations, practice, common mistakes, and a challenge to try yourself. Start with one role, then explore the other tracks so you understand how all the pieces fit together.
+
 ## Start here
 
 1. Read [00 — How to use this course](lessons/00-how-to-use-this-course.md).
