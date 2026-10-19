@@ -14,17 +14,17 @@ Welcome! This repository is a **written, hands-on course for learning GDScript**
 
 ## Choose your creator path 🎮
 
-You can learn more than scripting. This repository now includes role-based learning tracks for the different people who make games:
+This repository now includes **six role-based written books with 28 practical chapters**, alongside the main GDScript course and the reference manual. These are Markdown lessons in the repository—not a website.
 
-- [🧠 Scripters](tracks/scripters/README.md) — teach the game how to behave with GDScript.
-- [🧱 Builders and level designers](tracks/builders/README.md) — assemble scenes, levels, collision, and worlds.
-- [🔊 SFX makers and audio designers](tracks/sfx-makers/README.md) — create retro effects, music loops, UI sounds, and audio systems.
-- [🎨 Pixel artists](tracks/pixel-artists/README.md) — make sprites, tiles, and animations.
-- [🖥️ UI designers](tracks/ui-designers/README.md) — create menus, HUDs, and settings.
-- [🧪 Game designers and testers](tracks/designers-testers/README.md) — plan gameplay, playtest, and find bugs.
-- [📚 Complete Godot manual pack](manual/README.md) — deeper reference guides for audio, pixel art, project production, and more.
+- [🧠 Scripters' Book — 6 chapters](tracks/scripters/README.md) — GDScript, variables, decisions, loops, input, signals, inventory, and debugging.
+- [🧱 Builders' Book — 5 chapters](tracks/builders/README.md) — scenes, collisions, reusable environments, lighting, level flow, and checkpoints.
+- [🔊 SFX Makers' Book — 5 chapters](tracks/sfx-makers/README.md) — sound design, importing, mixing, licensing, and positional audio.
+- [🎨 Pixel Artists' Book — 4 chapters](tracks/pixel-artists/README.md) — sprites, animation, tilesets, art direction, and delivery.
+- [🖥️ UI Designers' Book — 4 chapters](tracks/ui-designers/README.md) — HUDs, menus, settings, accessibility, and navigation.
+- [🧪 Game Designers & Testers' Book — 4 chapters](tracks/designers-testers/README.md) — core loops, playtesting, bug reports, difficulty, scope, and release testing.
+- [📚 Complete Godot manual pack](manual/README.md) — additional reference guides for audio, pixel art, and production.
 
-Every track is designed around missions, explanations, practice, common mistakes, and a challenge to try yourself. Start with one role, then explore the other tracks so you understand how all the pieces fit together.
+Each book has a table of contents, plain-English explanations, guided setup, examples or practical settings, mini-missions, common mistakes, checkpoint questions, and a final challenge. Start with the role that interests you, then learn how the other roles work together to finish a game.
 
 ## Start here
 
