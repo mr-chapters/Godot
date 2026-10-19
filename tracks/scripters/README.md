@@ -12,7 +12,13 @@
 5. [Arrays, Dictionaries, and Inventory](05-arrays-dictionaries-and-inventory.md) — collections, item counts, and inventory rules.
 6. [Debugging and Finishing a Feature](06-debugging-and-finish-a-feature.md) — read errors, reproduce bugs, test edge cases, and finish responsibly.
 
-### Part II — Connect the foundations to Godot
+### Part II — Build stronger gameplay systems
+7. [Resources and Data-Driven Design](07-resources-and-data-driven-design.md) — reusable design data, exported properties, and resource sharing.
+8. [State Machines](08-state-machines.md) — predictable behaviour, states, and transitions.
+9. [Autoloads and Save Systems](09-autoloads-and-save-systems.md) — global services, JSON data, validation, and persistence.
+10. [Timers, Await, and Time-Based Logic](10-async-timers-and-coroutines.md) — cooldowns, delays, and asynchronous gameplay.
+
+### Part III — Connect the foundations to Godot
 Continue with the main [GDScript lesson course](../../README.md):
 - [Nodes, scenes, and the scene tree](../../lessons/12-nodes-scenes-tree.md)
 - [The node lifecycle](../../lessons/13-node-lifecycle.md)
@@ -25,7 +31,7 @@ Continue with the main [GDScript lesson course](../../README.md):
 - [Saving and loading](../../lessons/20-saving-and-loading.md)
 - [Clean code](../../lessons/22-clean-code.md)
 
-### Part III — Final project
+### Part IV — Final project
 Build a small game with movement, collectibles, health, an exit condition, and a restart flow. Then extend it with a door that requires a key and a score requirement.
 
 ## How to study this book
