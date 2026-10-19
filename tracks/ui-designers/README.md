@@ -1,32 +1,27 @@
-# 🖥️ UI Designer Track — Make Menus Clear and Friendly
+# 🖥️ UI Designers' Book — Make Menus Clear and Friendly
 
-**Role:** design the parts of a game people click, read, navigate, and use to understand what is happening.
+**Who this book is for:** interface designers and developers building menus, HUDs, settings, and player feedback. Good UI helps players understand the game instead of fighting it.
 
-## Level 1 — Know the UI nodes
-Start with [UI and HUD](../../lessons/19-ui-and-hud.md).
+## Table of contents
 
-Common nodes:
-- `Control` for UI layout and interaction;
-- `Label` for text;
-- `Button` for actions;
-- `TextureRect` for images;
-- `ProgressBar` for values;
-- `VBoxContainer` and `HBoxContainer` for automatic layout.
+1. [Build Your First HUD](01-your-first-game-hud.md) — Control nodes, CanvasLayer, score, health bars, layout, and readability.
+2. [Menus, Layout, and Accessibility](02-menus-layout-and-accessibility.md) — containers, pause menus, process mode, and accessible interaction.
+3. [Settings, Feedback, and Preferences](03-settings-feedback-and-save-options.md) — volume controls, immediate feedback, ConfigFile preferences, and defaults.
+4. [Navigation, Input, and UI Testing](04-navigation-input-and-ui-testing.md) — menu flow, keyboard/controller support, responsive layouts, and testing.
 
-## Level 2 — Build a menu
-Create a main menu with Play, Settings, and Quit/Back actions appropriate to your platform. Use anchors and containers so it adapts to different window sizes.
+## UI design rules
+- Every control should have a clear purpose.
+- Use containers and anchors for adaptable layouts.
+- Keep text readable and buttons clearly labelled.
+- Do not rely on colour or sound alone for critical feedback.
+- Make focus visible for keyboard/controller navigation.
+- Test at different window sizes.
+- Ensure buttons do what their labels promise.
+- Save settings only when you can restore them reliably.
 
-## Level 3 — Give useful feedback
-A button should show that it can be pressed and provide feedback when activated. Important messages should be readable and not depend only on sound or colour. Keep controls consistent and allow enough space for touch targets on mobile.
+## Further learning
+- [Official Godot UI documentation](https://docs.godotengine.org/en/stable/tutorials/ui/index.html)
+- [Godot Control class reference](https://docs.godotengine.org/en/stable/classes/class_control.html)
+- [Main GDScript course](../../README.md)
 
-## Mini-mission
-
-Build a pause menu with Resume, Restart, and Settings. Make sure the game pauses and resumes correctly.
-
-## Boss challenge
-
-Create a settings screen with music volume, SFX volume, fullscreen or window-size options where supported, and a clear Back button. Test the menu using a keyboard and a mouse; if targeting mobile, test touch input too.
-
-**Bonus:** save the settings and restore them when the game launches.
-
-**Official reference:** [Godot UI documentation](https://docs.godotengine.org/en/stable/tutorials/ui/index.html)
+**Graduation challenge:** build a main menu, gameplay HUD, pause menu, and settings screen. Make them navigable with a mouse and keyboard, and verify that volume settings persist after restarting the game.
