@@ -1,34 +1,91 @@
-# Godot GDScript Academy
+# Learn GDScript for Godot — From Zero to Game Projects
 
-A free, open-source learning website for GDScript and Godot 4. Learn from your first script through reusable gameplay systems, projects, debugging, and exporting.
+Welcome! This repository is a **written, hands-on course for learning GDScript**, the scripting language used by the Godot game engine. It is designed for complete beginners and grows toward real gameplay systems and small games.
 
-## Included
-- Responsive static website built with HTML, CSS, and JavaScript.
-- 29 lessons with goals, explanations, code examples, common mistakes, practice tasks, quizzes, and official references.
-- Search, topic filters, browser-saved progress, theme toggle, and previous/next lesson navigation.
-- Three guided project pathways: 2D platformer, top-down collector, and 3D explorer.
-- No paid service, backend, account, or API key required.
+**This is a learning repository, not a website.** Every lesson is a Markdown file you can read directly on GitHub, download, or use offline.
 
-## Start
-1. Install Godot from https://godotengine.org/download/.
-2. Open index.html in a browser.
-3. Start Lesson 01 and run code examples in Godot.
+## What you will learn
 
-Important: this website teaches GDScript but does not execute arbitrary GDScript inside the browser. Type examples into a Godot project and run them there.
+- Programming fundamentals: values, variables, types, operators, conditions, loops, and functions.
+- GDScript itself: arrays, dictionaries, enums, classes, inheritance, static typing, and error handling.
+- Godot fundamentals: nodes, scenes, the scene tree, signals, resources, input, and the node lifecycle.
+- Game systems: movement, collision, health, enemies, user interfaces, spawning, saving, and state machines.
+- Practical development: debugging, organising projects, performance basics, exporting, and completing projects.
 
-## Enable GitHub Pages
-Open Settings → Pages and set Build and deployment source to GitHub Actions. Save the setting and rerun the Deploy static learning site workflow from the Actions tab if it does not start automatically. After a successful deployment, the usual URL is https://mr-chapters.github.io/Godot/. The workflow files are already included in this repository.
+## Start here
+
+1. Read [00 — How to use this course](lessons/00-how-to-use-this-course.md).
+2. Follow the numbered lessons in order. Don't skip the exercises.
+3. Install Godot from the [official download page](https://godotengine.org/download/).
+4. Keep a small practice project and type the examples yourself.
+5. Use the [official GDScript reference](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html) alongside the course.
 
 ## Curriculum
-01 Setup and editor · 02 First script · 03 Variables · 04 Types · 05 Operators · 06 Conditions · 07 Loops · 08 Functions · 09 Arrays and dictionaries · 10 Nodes and scenes · 11 Lifecycle · 12 Input · 13 Vectors and movement · 14 Signals · 15 Collision and Area2D · 16 Timers · 17 UI · 18 Health and damage · 19 Scene instancing · 20 State machines · 21 Resources and exports · 22 Save/load · 23 Audio and animation · 24 Debugging · 25 Clean code · 26 Platformer project · 27 Top-down project · 28 3D introduction · 29 Export and capstone.
 
-## Free references
-- Official GDScript introduction: https://docs.godotengine.org/en/stable/getting_started/introduction/learn_to_code_with_gdscript.html
-- Official step-by-step series: https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html
-- GDScript basics: https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html
-- Style guide: https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html
-- Signals: https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html
-- Free interactive GDQuest course: https://github.com/GDQuest/learn-gdscript
+### Part 1 — Programming foundations
+- [00. How to use this course](lessons/00-how-to-use-this-course.md)
+- [01. Install Godot and understand the editor](lessons/01-install-godot.md)
+- [02. Your first GDScript](lessons/02-first-script.md)
+- [03. Variables and constants](lessons/03-variables-and-constants.md)
+- [04. Data types and type hints](lessons/04-types-and-type-hints.md)
+- [05. Operators and expressions](lessons/05-operators.md)
+- [06. Conditions: if, elif, else](lessons/06-conditions.md)
+- [07. Loops](lessons/07-loops.md)
+- [08. Functions and return values](lessons/08-functions.md)
+
+### Part 2 — Working with data and GDScript
+- [09. Arrays and dictionaries](lessons/09-arrays-and-dictionaries.md)
+- [10. Loops and collections practice](lessons/10-collections-practice.md)
+- [11. Classes, inheritance, and script structure](lessons/11-classes-and-inheritance.md)
+
+### Part 3 — Thinking in Godot
+- [12. Nodes, scenes, and the scene tree](lessons/12-nodes-scenes-tree.md)
+- [13. The node lifecycle and frame updates](lessons/13-node-lifecycle.md)
+- [14. Input and player movement](lessons/14-input-and-movement.md)
+- [15. Signals and communication](lessons/15-signals.md)
+- [16. Collision and Area2D](lessons/16-collision-and-area2d.md)
+- [17. Timers and spawning](lessons/17-timers-and-spawning.md)
+- [18. Health, damage, and game states](lessons/18-health-and-game-states.md)
+- [19. UI and HUDs](lessons/19-ui-and-hud.md)
+- [20. Saving and loading data](lessons/20-saving-and-loading.md)
+
+### Part 4 — Build and finish games
+- [21. Debugging and reading errors](lessons/21-debugging.md)
+- [22. Clean code and project organisation](lessons/22-clean-code.md)
+- [23. Project: top-down collector](projects/01-top-down-collector.md)
+- [24. Project: 2D platformer](projects/02-platformer.md)
+- [25. Project: final challenge](projects/03-capstone.md)
+
+> The course is a work in progress. If a lesson has a gap or an example needs correction, open an issue or contribute a fix.
+
+## How to study effectively
+
+For every lesson:
+1. Read the explanation before copying code.
+2. Type the code manually and predict what it will do.
+3. Run it in Godot and observe the result.
+4. Change one value at a time and explain the difference.
+5. Complete the practice tasks without looking at a solution first.
+6. When something breaks, read the first relevant error and check the line it names.
+
+You do **not** need to memorise everything. Learn how to reason about code, test ideas, and use documentation.
+
+## Version notes
+
+Examples target **Godot 4.x** and modern GDScript syntax. The Godot 3.x API differs in several places. If you use a different major version, check the version selector in the official documentation and adapt examples accordingly. Each practical lesson should be tested in the version you have installed.
+
+## Recommended official resources
+
+- [Getting started with Godot](https://docs.godotengine.org/en/stable/getting_started/introduction/index.html)
+- [GDScript basics](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
+- [GDScript reference](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html)
+- [Step-by-step Godot lessons](https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html)
+- [Godot class reference](https://docs.godotengine.org/en/stable/classes/index.html)
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Corrections, clearer explanations, new exercises, accessibility improvements, and tested examples are welcome.
 
 ## Licence
-Original website and lesson text are licensed under MIT. Godot and external resources remain the property of their owners. See LICENSE.
+
+This repository uses the MIT License. Godot and its documentation are separate projects; their names and links are used for educational reference.
