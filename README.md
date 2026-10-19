@@ -14,14 +14,15 @@ Welcome! This repository is a **written, hands-on course for learning GDScript**
 
 ## Choose your creator path 🎮
 
-This repository now includes **six role-based written books with 28 practical chapters**, alongside the main GDScript course and the reference manual. These are Markdown lessons in the repository—not a website.
+This repository now includes **seven role-based written books with 37 practical chapters**, alongside the main GDScript course and the reference manual. These are Markdown lessons in the repository—not a website.
 
-- [🧠 Scripters' Book — 6 chapters](tracks/scripters/README.md) — GDScript, variables, decisions, loops, input, signals, inventory, and debugging.
+- [🧠 Scripters' Book — 10 chapters](tracks/scripters/README.md) — GDScript foundations plus Resources, state machines, Autoloads, save data, and asynchronous time-based logic.
 - [🧱 Builders' Book — 5 chapters](tracks/builders/README.md) — scenes, collisions, reusable environments, lighting, level flow, and checkpoints.
 - [🔊 SFX Makers' Book — 5 chapters](tracks/sfx-makers/README.md) — sound design, importing, mixing, licensing, and positional audio.
 - [🎨 Pixel Artists' Book — 4 chapters](tracks/pixel-artists/README.md) — sprites, animation, tilesets, art direction, and delivery.
 - [🖥️ UI Designers' Book — 4 chapters](tracks/ui-designers/README.md) — HUDs, menus, settings, accessibility, and navigation.
 - [🧪 Game Designers & Testers' Book — 4 chapters](tracks/designers-testers/README.md) — core loops, playtesting, bug reports, difficulty, scope, and release testing.
+- [🧊 3D Artists' Book — 5 chapters](tracks/3d-artists/README.md) — modelling, game scale, materials, lighting, cameras, and Blender-to-Godot export.
 - [📚 Complete Godot manual pack](manual/README.md) — additional reference guides for audio, pixel art, and production.
 
 Each book has a table of contents, plain-English explanations, guided setup, examples or practical settings, mini-missions, common mistakes, checkpoint questions, and a final challenge. Start with the role that interests you, then learn how the other roles work together to finish a game.
